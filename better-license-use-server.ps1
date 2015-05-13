@@ -1,4 +1,19 @@
-﻿$csvLocation = "D:\testlicense.csv"
+﻿###############################
+# JSON structure
+###############################
+#{ "license-1": [
+#		"matlab": { 
+#			"total":"31" , 
+#			"used":"2"
+#		},
+#               ...
+#         ] 
+#        },
+#        ...
+###############################
+
+
+$csvLocation = "D:\testlicense.csv"
 $inUseLics = @()
 $inUse = $null
 $feature = $null
