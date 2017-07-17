@@ -1,1 +1,0 @@
-﻿Get-Counter -Counter "\Process(Citrix.Monitor)\Working Set - Private"
